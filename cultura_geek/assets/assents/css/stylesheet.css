@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+:root{
+    --prymari-color: #D5E14B;
+    --secondary-color: #42B6BB;
+    --tercerery-color: #F80A00;
+}
+
+
+
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box ;
+}
+
+
+body{
+    background-image: linear-gradient(to top, var(--prymari-color), var(--secondary-color), var(--tercerery-color));
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: var{var(--prymari-color)};
+    height: 10vh;
+}
+
+menu{
+    background-color: var(--secondary-color);
+    height: 0,8vh;
+}
+
+section{
+    background-color: var(--tercerery-color);
+    height: auto;
+}
+
+footer{
+    background-color: var(--prymari-color);
+    height: 0,7vh;
+}
